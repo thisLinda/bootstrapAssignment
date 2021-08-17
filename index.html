@@ -1,0 +1,82 @@
+<!-- Create a new website using HTML and Bootstrap. The website must include the following:
+
+A Bootstrap styled form
+At least 2 pages
+Bootstrap grid used throughout to format elements
+Elements should stack vertically when the window is small 
+
+DONE: 
+A Bootstrap navbar
+A Bootstrap styled table
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Homework</title>
+  <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.css'>
+</head>
+
+<body>
+  <!-- TOdo: fixed top for nav only -->
+  <nav class='navbar navbar-light bg-light navbar-expand-lg'>
+    <a href='#' class='navbar-brand'>Stronger Voice</a>
+    <button class='navbar-toggler' data-toggle='collapse' data-target='#navbarCollapse'>
+      <span class='navbar-toggler-icon'></span>
+    </button>
+    <div class='collapse navbar-collapse'>
+      <ul class='navbar-nav ml-auto'>
+        <li class='navbar-item'>
+          <a href='#' class='nav-link'>Home</a>
+        </li>
+        <li class='navbar-item'>
+          <a href='#' class='nav-link'>Intensity</a>
+        </li>
+        <li class='navbar-item'>
+          <a href='#' class='nav-link'>Duration</a>
+        </li>
+        <li class='navbar-item'>
+          <a href='#' class='nav-link'>Pitch</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class='container' style='margin-top:30px'>
+    <table class='table table table-striped table-hover'>
+      <thead class='thead-dark'>
+        <tr>
+          <!-- calendar -->
+          <th>Date</th>
+          <!-- should be a dropdown -->
+          <th>Target</th>
+          <!-- needs refinement -->
+          <th>Max</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8/16/21</td>
+          <td>Intensity</td>
+          <td>70 dB</td>
+        </tr>
+        <tr>
+          <td>8/16/21</td>
+          <td>Duration</td>
+          <td>12 seconds</td>
+        </tr>
+        <tr>
+          <td>8/16/21</td>
+          <td>Pitch</td>
+          <td>E</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+</body>
+</html>
