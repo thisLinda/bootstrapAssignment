@@ -6,35 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Homework</title>
   <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.css'>
+  <link rel='stylesheet' href='styles.css'>
 </head>
 
 <body>
-  <div class='container' style='margin-top: 20px;'>
+  <!-- TOdo: fixed top for nav only -->
+  <nav class='navbar navbar-light bg-light navbar-expand-lg'>
+    <a href='#' class='navbar-brand'>Stronger Voice</a>
+    <button class='navbar-toggler' data-toggle='collapse' data-target='#navbarCollapse'>
+      <span class='navbar-toggler-icon'></span>
+    </button>
+    <div class='collapse navbar-collapse'>
+      <ul class='navbar-nav ml-auto'>
+        <li class='navbar-item'>
+          <a href='#' class='nav-link'>Home</a>
+        </li>
+        <li class='navbar-item'>
+          <a href='#' class='nav-link'>Intensity</a>
+        </li>
+        <li class='navbar-item'>
+          <a href='#' class='nav-link'>Duration</a>
+        </li>
+        <li class='navbar-item'>
+          <a href='#' class='nav-link'>Pitch</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- TOdo: fixed top for nav only -->
-    <nav class='navbar navbar-light bg-light navbar-expand-lg'>
-      <a href='#' class='navbar-brand'>Stronger Voice</a>
-      <button class='navbar-toggler' data-toggle='collapse' data-target='#navbarCollapse'>
-        <span class='navbar-toggler-icon'></span>
-      </button>
-      <div class='collapse navbar-collapse'>
-        <ul class='navbar-nav ml-auto'>
-          <li class='navbar-item'>
-            <a href='#' class='nav-link'>Home</a>
-          </li>
-          <li class='navbar-item'>
-            <a href='#' class='nav-link'>Intensity</a>
-          </li>
-          <li class='navbar-item'>
-            <a href='#' class='nav-link'>Duration</a>
-          </li>
-          <li class='navbar-item'>
-            <a href='#' class='nav-link'>Pitch</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <div class='hero'>
+  <p class='py-5 text-center'>Voice Ex Text Here</p>
 
+  <div class='container-fluid'>
+    <div class='row mb-3'>
+      <!-- <div class='col hero'>
+        <h2>Voice Exercises!</h2>
+        <button class='btn btn-success'>Practice</button>
+      </div> -->
+    </div>
     <form class='form' style='margin-top:60px'>
       <div class='form-row'>
         <div class='form-group col-md-6'>
@@ -56,7 +65,30 @@
       </div>
       <button type='submit' class='btn btn-primary'>Sign in</button>
     </form>
-
   </div>
+
+  <!-- <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    Contact Us
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled footer-links">
+                        <li><a class="btn btn-link text-success" href="#">One Chair</a></li>
+                        <li><a class="btn btn-link text-success" href="#">Two Chairs</a></li>
+                        <li><a class="btn btn-link text-success" href="#">Red Chair</a></li>
+                        <li><a class="btn btn-link text-success" href="#">Blue Chair</a></li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    Morbi ac tellus nisi. Duis nisi odio, blandit 
+                    vitae risus ut, aliquet fermentum massa. In id velit vestibulum, 
+                    consequat mauris a, tincidunt felis.
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    
 </body>
 </html>
